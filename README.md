@@ -83,7 +83,7 @@ ViewControllerLIfeCycle_CreatingStateLab
 2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
 ```
 
-### tap the icon app
+### tap the icon app to restore the application. See what happens now.
 
 ``` console 
 2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
@@ -94,7 +94,7 @@ ViewControllerLIfeCycle_CreatingStateLab
 2019-05-04 10:48:49.747136-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
 ```
 
-# Now double-tap the home button.
+# Now double-tap the home button. In this appears all the apps to scroll them.
 
 ``` console
 2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
@@ -106,7 +106,7 @@ ViewControllerLIfeCycle_CreatingStateLab
 2019-05-04 10:50:26.559311-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
 ```
 
-# Press and hold the State Lab Icon until the "kill" icon (the minus in the red circle comes up.
+# Press and hold the State Lab Icon until the "kill" icon (the minus in the red circle) comes up.
 
 ``` console
 2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
