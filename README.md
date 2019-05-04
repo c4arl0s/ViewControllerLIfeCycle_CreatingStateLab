@@ -70,76 +70,45 @@ ViewControllerLIfeCycle_CreatingStateLab
 # Compile and run, then you will get the following output:
 
 ``` console
-2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
-2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 11:04:58.026352-0500 CreatingStateLab[11129:1710050] application:didFinishLaunchingWithOptions:
+2019-05-04 11:04:58.065434-0500 CreatingStateLab[11129:1710050] applicationDidBecomeActive:
 ```
 
 ### Press the buton Home on your iphone, in this case I have an Iphone 7, see what happens on the console. Watch the sequence
 
 ``` console
-2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
-2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:46:42.555854-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+2019-05-04 11:05:19.833951-0500 CreatingStateLab[11129:1710050] applicationWillResignActive:
+2019-05-04 11:05:20.446834-0500 CreatingStateLab[11129:1710050] applicationDidEnterBackground:
 ```
 
 ### tap the icon app to restore the application. See what happens now.
 
 ``` console 
-2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
-2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:46:42.555854-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
-2019-05-04 10:48:49.480696-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
-2019-05-04 10:48:49.747136-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 11:05:47.815724-0500 CreatingStateLab[11129:1710050] applicationWillEnterForeground:
+2019-05-04 11:05:48.061262-0500 CreatingStateLab[11129:1710050] applicationDidBecomeActive:
 ```
 
 # Now double-tap the home button. In this appears all the apps to scroll them.
 
 ``` console
-2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
-2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:46:42.555854-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
-2019-05-04 10:48:49.480696-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
-2019-05-04 10:48:49.747136-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:50:26.559311-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 11:06:21.612345-0500 CreatingStateLab[11129:1710050] applicationWillResignActive:
 ```
 
-# Press and hold the State Lab Icon until the "kill" icon (the minus in the red circle) comes up.
+# Press the home buton, it will return to the app
 
 ``` console
-2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
-2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:46:42.555854-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
-2019-05-04 10:48:49.480696-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
-2019-05-04 10:48:49.747136-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:50:26.559311-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:52:06.968933-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:52:08.312558-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:52:08.931625-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
-2019-05-04 10:52:45.213024-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
-2019-05-04 10:52:45.479232-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:54:03.016902-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:54:03.635706-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+2019-05-04 11:06:52.799302-0500 CreatingStateLab[11129:1710050] applicationDidBecomeActive:
+```
+
+# Press HOme and hold the State Lab Icon until the "kill" icon (the minus in the red circle) comes up.
+
+``` console
+2019-05-04 11:07:44.790147-0500 CreatingStateLab[11129:1710050] applicationWillResignActive:
+2019-05-04 11:07:45.390779-0500 CreatingStateLab[11129:1710050] applicationDidEnterBackground:
+
 ```
 ### then click to delete the app.
 ``` console
-2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
-2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:46:42.555854-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
-2019-05-04 10:48:49.480696-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
-2019-05-04 10:48:49.747136-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:50:26.559311-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:52:06.968933-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:52:08.312558-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:52:08.931625-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
-2019-05-04 10:52:45.213024-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
-2019-05-04 10:52:45.479232-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
-2019-05-04 10:54:03.016902-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
-2019-05-04 10:54:03.635706-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
 Message from debugger: Terminated due to signal 9
 ```
 
