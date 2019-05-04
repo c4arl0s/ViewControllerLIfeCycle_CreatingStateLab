@@ -106,6 +106,43 @@ ViewControllerLIfeCycle_CreatingStateLab
 2019-05-04 10:50:26.559311-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
 ```
 
+# Press and hold the State Lab Icon until the "kill" icon (the minus in the red circle comes up.
+
+``` console
+2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
+2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:46:42.555854-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+2019-05-04 10:48:49.480696-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
+2019-05-04 10:48:49.747136-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:50:26.559311-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:52:06.968933-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:52:08.312558-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:52:08.931625-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+2019-05-04 10:52:45.213024-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
+2019-05-04 10:52:45.479232-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:54:03.016902-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:54:03.635706-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+```
+### then click to delete the app.
+``` console
+2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
+2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:46:42.555854-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+2019-05-04 10:48:49.480696-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
+2019-05-04 10:48:49.747136-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:50:26.559311-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:52:06.968933-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:52:08.312558-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:52:08.931625-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+2019-05-04 10:52:45.213024-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
+2019-05-04 10:52:45.479232-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:54:03.016902-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:54:03.635706-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+Message from debugger: Terminated due to signal 9
+```
+
 
 
 
