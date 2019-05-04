@@ -88,19 +88,19 @@ ViewControllerLIfeCycle_CreatingStateLab
 2019-05-04 11:05:48.061262-0500 CreatingStateLab[11129:1710050] applicationDidBecomeActive:
 ```
 
-# Now double-tap the home button. In this appears all the apps to scroll them.
+### Now double-tap the home button. In this appears all the apps to scroll them.
 
 ``` console
 2019-05-04 11:06:21.612345-0500 CreatingStateLab[11129:1710050] applicationWillResignActive:
 ```
 
-# Press the home buton, it will return to the app
+### Press the home buton, it will return to the app
 
 ``` console
 2019-05-04 11:06:52.799302-0500 CreatingStateLab[11129:1710050] applicationDidBecomeActive:
 ```
 
-# Press HOme and hold the State Lab Icon until the "kill" icon (the minus in the red circle) comes up.
+### Press HOme and hold the State Lab Icon until the "kill" icon (the minus in the red circle) comes up.
 
 ``` console
 2019-05-04 11:07:44.790147-0500 CreatingStateLab[11129:1710050] applicationWillResignActive:
