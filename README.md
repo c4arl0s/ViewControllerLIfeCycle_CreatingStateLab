@@ -81,6 +81,8 @@ ViewControllerLIfeCycle_CreatingStateLab
 2019-05-04 11:05:20.446834-0500 CreatingStateLab[11129:1710050] applicationDidEnterBackground:
 ```
 
+- what you can´t see is a notification about a third state Suspeded. Note that the app is still alive in some sense, and Xcode is still connected to it., even though it is not actually getting any CPU time.
+
 ### tap the icon app to restore the application. See what happens now.
 
 ``` console 
