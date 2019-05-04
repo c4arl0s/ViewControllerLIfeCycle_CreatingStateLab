@@ -74,5 +74,16 @@ ViewControllerLIfeCycle_CreatingStateLab
 2019-05-04 10:21:36.305471-0600 CreatingStateLab[36723:2162192] applicationDidBecomeActive:
 ```
 
+### Press the buton Home on your iphone and see what happens on the console. Watch the sequence
+
+``` console
+2019-05-04 10:21:36.282177-0600 CreatingStateLab[36723:2162192] application:didFinishLaunchingWithOptions:
+2019-05-04 10:21:36.305471-0600 CreatingStateLab[36723:2162192] applicationDidBecomeActive:
+2019-05-04 10:24:15.280636-0600 CreatingStateLab[36723:2162192] applicationWillResignActive:
+2019-05-04 10:24:23.451830-0600 CreatingStateLab[36723:2162192] applicationDidEnterBackground:
+```
+
+
+
 
 
