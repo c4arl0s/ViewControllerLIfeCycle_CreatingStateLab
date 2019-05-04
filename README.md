@@ -70,17 +70,28 @@ ViewControllerLIfeCycle_CreatingStateLab
 # Compile and run, then you will get the following output:
 
 ``` console
-2019-05-04 10:21:36.282177-0600 CreatingStateLab[36723:2162192] application:didFinishLaunchingWithOptions:
-2019-05-04 10:21:36.305471-0600 CreatingStateLab[36723:2162192] applicationDidBecomeActive:
+2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
+2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
 ```
 
 ### Press the buton Home on your iphone, in this case I have an Iphone 7, see what happens on the console. Watch the sequence
 
 ``` console
-2019-05-04 10:21:36.282177-0600 CreatingStateLab[36723:2162192] application:didFinishLaunchingWithOptions:
-2019-05-04 10:21:36.305471-0600 CreatingStateLab[36723:2162192] applicationDidBecomeActive:
-2019-05-04 10:24:15.280636-0600 CreatingStateLab[36723:2162192] applicationWillResignActive:
-2019-05-04 10:24:23.451830-0600 CreatingStateLab[36723:2162192] applicationDidEnterBackground:
+2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
+2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:46:42.555854-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+```
+
+### tap the icon app
+
+``` console 
+2019-05-04 10:46:18.564743-0500 CreatingStateLab[11053:1702596] application:didFinishLaunchingWithOptions:
+2019-05-04 10:46:18.596204-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
+2019-05-04 10:46:42.555854-0500 CreatingStateLab[11053:1702596] applicationWillResignActive:
+2019-05-04 10:46:43.162695-0500 CreatingStateLab[11053:1702596] applicationDidEnterBackground:
+2019-05-04 10:48:49.480696-0500 CreatingStateLab[11053:1702596] applicationWillEnterForeground:
+2019-05-04 10:48:49.747136-0500 CreatingStateLab[11053:1702596] applicationDidBecomeActive:
 ```
 
 
