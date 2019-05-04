@@ -74,7 +74,7 @@ ViewControllerLIfeCycle_CreatingStateLab
 2019-05-04 10:21:36.305471-0600 CreatingStateLab[36723:2162192] applicationDidBecomeActive:
 ```
 
-### Press the buton Home on your iphone and see what happens on the console. Watch the sequence
+### Press the buton Home on your iphone, in this case I have an Iphone 7, see what happens on the console. Watch the sequence
 
 ``` console
 2019-05-04 10:21:36.282177-0600 CreatingStateLab[36723:2162192] application:didFinishLaunchingWithOptions:
